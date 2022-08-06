@@ -55,7 +55,7 @@ if __name__ == '__main__':
         with c1:
             st.write('')
         with c2:
-            st.image(Image.open('imagem.png'))
+            st.image(Image.open('Imagem.png'))
         with c3:
             st.write('')
         st.markdown('')
