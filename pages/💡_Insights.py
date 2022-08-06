@@ -119,6 +119,7 @@ def hypo5(data):
 if __name__ == '__main__':
     st.set_page_config(
         page_title='Insights',
+        page_icon='💡',
         layout='wide'
 
     )

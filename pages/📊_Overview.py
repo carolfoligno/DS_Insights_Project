@@ -69,6 +69,7 @@ def overview_descriptive(data):
 if __name__ == '__main__':
     st.set_page_config(
         page_title='Overview',
+        page_icon='📊',
         layout='wide'
 
     )
