@@ -1,40 +1,40 @@
-# **House Rocket – Insight Project**
+# **House Rocket – Projeto de Insights**
 
 ![Imagem](https://user-images.githubusercontent.com/80589529/183155590-de7f2d73-a749-4623-91d6-8b5aed3aedd7.png)
 
-## 1.	Business Question
+## 1.	Pergunta de negócios
 
-House Rocket is a fictitious company whose business model is the purchase and sale of real estate using technology. Their main strategy is to buy good homes in great locations at low prices and then resell them later at higher prices. The greater the difference between buying and selling, the greater the company's profit and therefore the greater its revenue. Their CEO in a pursue to maximize their profit are looking for an analysis in their dataset to find the best businesses available to them, buying at a low price, renovate and sell it to a higher price, he also want to know what is the best price they could sell to make the most profit possible. He wants the answer for two questions:
+A House Rocket é uma empresa fictícia cujo modelo de negócio é a compra e venda de imóveis utilizando tecnologia. Sua principal estratégia é comprar boas casas em ótimas localizações a preços baixos e depois revendê-las a preços mais altos. Quanto maior a diferença entre comprar e vender, maior o lucro da empresa e, portanto, maior sua receita. Seu CEO em uma busca para maximizar seu lucro está procurando uma análise em seu conjunto de dados para encontrar os melhores negócios disponíveis para eles, comprando a um preço baixo, reformando e vendendo a um preço mais alto, ele também quer saber qual é o melhor preço que poderiam vender para obter o maior lucro possível. Ele quer a resposta para duas perguntas:
 
-* Which is the real state that House Rocket should buy and at what price?
-* Once bought the real state, when is the best moment to sell and at what price?
+* Qual é o imóvel que a House Rocket deve comprar e a que preço?
+* Uma vez comprado o imóvel, qual é o melhor momento para vender e a que preço?
 
-## 2.	Business Assumptions
+## 2.	Premissas de Negócios
 
-All the data assumptions, insights and hypotehsis are based on available dataset.
+Todas as suposições de dados, insights e hipóteses são baseadas no conjunto de dados disponível.
 
-## 3.	Solution Strategy
+## 3.	Estratégia de solução
 
-1.	Which is the real state that House Rocket should buy and at what price?
-- I grouped the zip code of the data and calculated the average price of each property.
-- Merge this data with the initial dataset.
-- I created a new attribute 'status' that indicates if the property is good for purchase or not, through the following criteria: price below average and condition above 3 is good for purchase.
+1.	Qual é o imóvel que a House Rocket deve comprar e a que preço?
+- Agrupei o CEP dos dados e calculei o preço médio de cada imóvel.
+- Mescle esses dados com o conjunto de dados inicial.
+- Criei um novo atributo 'status' que indica se o imóvel está bom para compra ou não, através dos seguintes critérios: preço abaixo da média e condição acima de 3 é bom para compra.
 
-2.	Once bought the real state, when is the best moment to sell and at what price?
-- added a new 'season' attribute in the dataset.
-- I grouped by zipcode and season and got the average prices.
-- new attribute 'price_sale': above average price increases by 30%, less than average only increases by 10%.
-- 'profit' attribute is calculated by the difference between 'price' and 'price_sale'.
+2.	Uma vez comprado o imóvel, qual é o melhor momento para vender e a que preço?
+- adicionou um novo atributo 'temporada' no conjunto de dados.
+- Agrupei por CEP e temporada e peguei os preços médios.
+- novo atributo 'price_sale': o preço acima da média aumenta em 30%, abaixo da média aumenta apenas em 10%.
+- O atributo 'profit' é calculado pela diferença entre 'price' e 'price_sale'.
 
-## 4.	Insights gained
+## 4.	Insights obtidos
 
-* The price growth YoY has an increase of 0.52 YoY.
-* Properties without basement in median are almost 1.45% larger than properties with.
-* State with waterfront view are 212.64% more expensive at average.
+* O crescimento de preço ano a ano tem um aumento de 0,52.
+* Imóveis sem porão na mediana são quase 1,45% maiores do que imóveis com.
+* Os estados com vista para o mar são 212,64% mais caros, em média.
 
-## 5.	Business Results
+## 5.	Resultados de negócios
 
-Through the analysis of the data it was possible to obtain the following results of the profit in the seasons.
+Através da análise dos dados foi possível obter os seguintes resultados do lucro nas safras.
 
 | SEASON | PROFIT |
 | ----- | ------ |
@@ -43,9 +43,9 @@ Through the analysis of the data it was possible to obtain the following results
 | Summer | 124,251.96 |
 | Winter | 117,868.11 |
 
-## 6.	Conclusion
+## 6.	Conclusão
 
-Based on data analysis, it is possible to say that the best buying season for a company is winter, on the other hand, the best selling season is spring.
+Com base na análise dos dados, é possível afirmar que a melhor época de compra para uma empresa é o inverno, por outro lado, a época de maior venda é a primavera.
 
 ## 7.	Links:
 * source: https://www.kaggle.com/shivachandel/kc-house-data
