@@ -1,4 +1,6 @@
-# **House Rocket – Projeto de Insights**
+# Identificação de imóveis para compra e revenda a fim de maximizar o lucro
+
+## **House Rocket – Projeto de Insights**
 
 ![Imagem](https://user-images.githubusercontent.com/80589529/183155590-de7f2d73-a749-4623-91d6-8b5aed3aedd7.png)
 
